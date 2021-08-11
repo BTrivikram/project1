@@ -12,11 +12,11 @@ class SecondRowItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 600,
-      height: 30,
+       height: 31,
+       width: 120,
       alignment: Alignment.center,
-      margin: EdgeInsets.only(left: 15, right: 15),
-      padding: EdgeInsets.symmetric(horizontal: 11, vertical: 5),
+      margin: EdgeInsets.all(5),
+     padding: EdgeInsets.symmetric(horizontal: 10),
       decoration: BoxDecoration(
         color: colour1,
         border: Border.all(
